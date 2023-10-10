@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Meeting App</string>
-    <string name="welcome_to">Welcome to</string>
-    <string name="video_meeting_conference_app">Video Meeting | Conference App</string>
+    <string name="app_name">VisioConf Application</string>
+    <string name="welcome_to">Welcome </string>
+    <string name="video_meeting_conference_app">VisioConf | Application</string>
     <string name="sign_in_to_your_account">Sign in to your account</string>
     <string name="email">Email</string>
     <string name="your_example_com">your@example.com</string>
