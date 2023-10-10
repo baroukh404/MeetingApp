@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "503442879497",
+    "project_id": "visioconfapplication",
+    "storage_bucket": "visioconfapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503442879497:android:4f2e5358a8d9de2c3c34d8",
+        "android_client_info": {
+          "package_name": "com.baroukh.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503442879497-nmco8eorph4r950s15dgghucpmmp5to8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwlYnAhgLOMy1pKNjt5n3hLKbYG-WmJFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503442879497-nmco8eorph4r950s15dgghucpmmp5to8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503442879497:android:36f1a3ed14d991893c34d8",
+        "android_client_info": {
+          "package_name": "com.project.meetingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503442879497-nmco8eorph4r950s15dgghucpmmp5to8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwlYnAhgLOMy1pKNjt5n3hLKbYG-WmJFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503442879497-nmco8eorph4r950s15dgghucpmmp5to8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
