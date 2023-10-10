@@ -46,11 +46,11 @@ public class SignInActivity extends AppCompatActivity {
 
         buttonSignIn.setOnClickListener(view -> {
             if (inputEmail.getText().toString().trim().isEmpty()) {
-                Toast.makeText(SignInActivity.this, "Enter email", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SignInActivity.this, "Ampidiro ny adiresy mailaka", Toast.LENGTH_SHORT).show();
             } else if (!Patterns.EMAIL_ADDRESS.matcher(inputEmail.getText().toString()).matches()) {
-                Toast.makeText(SignInActivity.this, "Enter valid email", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SignInActivity.this, "Diso ny adiresy mailaka", Toast.LENGTH_SHORT).show();
             } else if (inputPassword.getText().toString().trim().isEmpty()) {
-                Toast.makeText(SignInActivity.this, "Enter password", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SignInActivity.this, "Ampidiro ny teny miafina", Toast.LENGTH_SHORT).show();
             } else {
                 signIn();
             }
@@ -80,7 +80,7 @@ public class SignInActivity extends AppCompatActivity {
                     } else {
                         signInProgress.setVisibility(View.INVISIBLE);
                         buttonSignIn.setVisibility(View.VISIBLE);
-                        Toast.makeText(SignInActivity.this, "Unable to sign in", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SignInActivity.this, "Mbola tsy afaka miditra", Toast.LENGTH_SHORT).show();
                     }
                 });
     }
